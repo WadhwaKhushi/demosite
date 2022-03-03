@@ -1,0 +1,50 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
+header{
+    display: flex; /*aligns the part*/
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+nav{
+    width: 60vw; /*increases the width*/
+    margin-top: -0.1rem;
+}
+.bigImage{
+    width: 95vw;
+}
+.container{
+    display: flex;
+    margin-top: 60px;
+    column-gap: 60px;
+}
+.container>div{
+    text-align: center;
+}
+.container>div>p{
+    font-size: x-large;
+}
+h1{
+    font-weight: normal;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    font-size: x-large;
+}
+footer>p{
+    padding: 1rem;
+}
